@@ -13,7 +13,7 @@
         <header class="header">
             <div class="header__info">
                 <div class="header__info-left">
-                    <select>
+                    <select class="header__info-dropdown">
                         <option>Санкт-Петербург</option>
                         <option>Москва</option>
                         <option>Екатеринбург</option>
@@ -29,67 +29,71 @@
                     <img class="header__social-logo" src="../src/img/phone.svg">
                 </div>
             </div>
-            <div class="header__main">
-                <div class="header__logo">
-                    <img src="../src/img/logo.svg">
-                    <p>Ваш эксперт на рынке 3D-техники</p>
-                </div>
-                <div class="header__add-logo">
-                    <img src="../src/img/yandex-market.svg">
-                </div>
-                <div class="header__search-form">
-                    <input type="search">
+            <div class="header__main-wrapper">
 
-                    </input>
+                <div class="header__main">
+                    <div class="header__logo">
+                        <img src="../src/img/logo.svg">
+                    </div>
+                    <p class="header__logo-text">Ваш эксперт<br> на рынке
+                        <span style="color:#D2001C">3D</span>-техники
+                    </p>
+                    <div class="header__add-logo">
+                        <img src="../src/img/yandex-market.svg">
+                    </div>
+                    <div class="header__search-form">
+                        <form>
+                            <input type="search" placeholder="Введите запрос, например, Formlabs Form 2">
+                            <button class="header__search-button"> Найти </button>
+                            </input>
+                        </form>
+                    </div>
+                    <div class="header__login-button">
+                        <button>
+                            <img src="../src/img/login-icon.svg">
+                            <p> Войти </p>
+                        </button>
+                    </div>
+                    <div class="header__cart-button">
+                        <button>
+                            <img src="../src/img/cart-icon.svg">
+                            <p> Корзина пуста </p>
+                        </button>
+                    </div>
                 </div>
-                <div class="header__search-button">
-                    <button> Найти </button>
-                </div>
-                <div class="header__login-button">
-                    <button>
-                        <img src="../src/img/login-icon.svg">
-                        <p> Войти </p>
-                    </button>
-                </div>
-                <div class="header__cart-button">
-                    <button>
-                        <img src="../src/img/cart-icon.svg">
-                        <p> Корзина пуста </p>
-                    </button>
-                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-ul">
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__product-nav">
+                    <ul class="header__product-nav-ul">
+                        <select>
+                            <option>3d - принтеры</option>
+                            <option>4d - принтеры</option>
+                        </select>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header__nav">
-                <ul class="header__nav-ul">
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                </ul>
-            </nav>
-            <nav class="header__product-nav">
-                <ul class="header__product-nav-ul">
-                    <select>
-                        <option>3d - принтеры</option>
-                        <option>4d - принтеры</option>
-                    </select>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Акции</a></li>
-                </ul>
-            </nav>
         </header>
         <!-- Header end-->
         <!-- Main container -->

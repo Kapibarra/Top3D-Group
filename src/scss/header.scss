@@ -16,23 +16,135 @@
     max-width: 1440px;
     background-color: $primary-color;
     justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    align-items: center;
 }
 
 .header__info-left {
     display: flex;
 }
 
+.header__info-left p {
+    margin-right: 23px;
+}
+
+.header__info-left:nth-child(1) {
+    margin-left: 120px;
+}
+
 .header__info-right {
     display: flex;
+    align-items: center;
 }
+
+.header__info-dropdown {
+    margin-right: 23px;
+    margin-top: 9px;
+    height: 24px;
+    background-color: $primary-color;
+    border: none;
+    cursor: pointer;
+}
+
+.header__info-right p {
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.header__info-right p:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.header__social-logo {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.header__social-logo:nth-child(5) {
+    margin-right: 120px;
+}
+
+
+/* header main */
 
 .header__main {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .header__logo {
     display: flex;
+    margin-left: 120px;
+    margin-top: 16px;
+    width: 64px;
+    height: 73px;
+}
+
+.header__logo-text {
+    margin-top: 34px;
+    margin-left: 14px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    align-items: center;
+    width: 133px;
+    height: 36px;
+}
+
+.header__add-logo {
+    margin-top: 5px;
+    width: 105px;
+    height: 60px;
+}
+
+.header__cart-button {
+    margin-right: 120px;
+}
+
+.header__search-form {
+    justify-content: center;
+}
+
+.header__search-form form {
+    position: relative;
+}
+
+.header__search-form button {
+    position: absolute;
+    top: 34px;
+    right: 4px;
+    width: 75px;
+    height: 36px;
+    background-color: #ffffff;
+    border: 2px solid $redele-color;
+    color: $redele-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.header__search-form input {
+    margin-top: 30px;
+    margin-left: 32px;
+    justify-content: center;
+    width: 540px;
+    height: 44px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+::placeholder {
+    padding-left: 16px;
 }
 
 .header__nav-ul li {
