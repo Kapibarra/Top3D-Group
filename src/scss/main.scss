@@ -1,0 +1,18 @@
+.main__container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1235px;
+}
+
+.main__article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__article-left {
+    width: 333px;
+}
+
+.main__article-right {
+    width: 708px;
+}
