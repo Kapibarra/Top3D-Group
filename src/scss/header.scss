@@ -147,6 +147,21 @@
     padding-left: 16px;
 }
 
+.header__cart-button button {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    width: 160px;
+    height: 36px;
+    background: $redele-color;
+    border-radius: 4px;
+    border: none;
+}
+
+.header__cart-button img {
+    justify-content: center;
+}
+
 .header__nav-ul li {
     display: inline-block;
 }
