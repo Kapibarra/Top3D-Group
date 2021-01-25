@@ -3,6 +3,7 @@
     display: block;
     width: 100%;
     margin: 0 auto;
+    margin-top: 12px;
     max-width: 1440px;
     height: 236px;
 }
@@ -10,7 +11,6 @@
 .header__info {
     display: flex;
     margin: 0 auto;
-    margin-top: 12px;
     width: 100%;
     height: 32px;
     max-width: 1440px;
@@ -30,6 +30,8 @@
 
 .header__info-left p {
     margin-right: 23px;
+    margin-top: 3px;
+    align-items: center;
 }
 
 .header__info-left:nth-child(1) {
@@ -43,7 +45,6 @@
 
 .header__info-dropdown {
     margin-right: 23px;
-    margin-top: 9px;
     height: 24px;
     background-color: $primary-color;
     border: none;
@@ -53,6 +54,7 @@
 .header__info-right p {
     margin-right: 36px;
     cursor: pointer;
+    align-items: center;
 }
 
 .header__info-right p:hover {
@@ -75,6 +77,9 @@
 /* header main */
 
 .header__main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,6 +96,7 @@
 .header__logo-text {
     margin-top: 34px;
     margin-left: 14px;
+    margin-right: 20px;
     font-family: Open Sans;
     font-style: italic;
     font-weight: normal;
@@ -147,10 +153,39 @@
     padding-left: 16px;
 }
 
-.header__cart-button button {
-    display: flex;
+.header__login-button {
     justify-content: center;
     margin-top: 34px;
+    margin-right: 32px;
+}
+
+.header__login-button button {
+    display: flex;
+    width: 105px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+
+.header__login-button img {
+    margin-top: 6px;
+    margin-left: 36px;
+    margin-right: 10px;
+}
+
+.header__login-button p {
+    margin-top: 9px;
+    color: #222222;
+}
+
+.header__cart-button {
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.header__cart-button button {
+    display: flex;
     width: 160px;
     height: 36px;
     background: $redele-color;
@@ -159,7 +194,23 @@
 }
 
 .header__cart-button img {
-    justify-content: center;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__cart-button p {
+    margin-top: 9px;
+    color: #ffffff;
+}
+
+.header__nav-ul {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1190px;
+    display: flex;
+    margin: 13px auto;
+    justify-content: space-between;
 }
 
 .header__nav-ul li {
