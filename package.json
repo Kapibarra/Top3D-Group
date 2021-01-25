@@ -1,0 +1,31 @@
+{
+  "name": "top3d-group",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.17.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kapibarra/Top3D-Group.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "javascript"
+  ],
+  "author": "Nikita Novikov <nikita.nov2016@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kapibarra/Top3D-Group/issues"
+  },
+  "homepage": "https://github.com/Kapibarra/Top3D-Group#readme"
+}
