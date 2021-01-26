@@ -17,9 +17,42 @@
 }
 
 .main__article-left {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
     width: 333px;
+    & button {
+        cursor: pointer;
+        width: 280px;
+        height: 44px;
+        border: none;
+        color: #F9F9F9;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        background: $redele-color;
+        border-radius: 4px;
+    }
+    & p {
+        margin-top: 20px;
+        margin-bottom: 70px;
+        width: 280px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #C4C4C4
+    }
 }
 
 .main__article-right {
     width: 708px;
+    & p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
