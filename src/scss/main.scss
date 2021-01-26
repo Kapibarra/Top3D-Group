@@ -56,3 +56,28 @@
         line-height: 19px;
     }
 }
+
+.main__subarticle h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+}
+
+.main__subarticle-nav {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1145px;
+    justify-content: space-between;
+    & a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    & :hover {
+        color: $redele-color;
+    }
+}
