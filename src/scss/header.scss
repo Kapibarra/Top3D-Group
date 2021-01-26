@@ -232,3 +232,21 @@
 .header__nav-ul a .header__product-nav-ul li {
     display: inline-block;
 }
+
+.header__product-nav {
+    margin-top: 20px;
+}
+
+.header__product-nav-ul li a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+.header__product-nav-ul {
+    list-style: none;
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
