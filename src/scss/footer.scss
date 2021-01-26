@@ -12,8 +12,18 @@
     width: 100%;
     margin: 0 auto;
     max-width: 1168px;
+    & h1 {
+        padding-top: 70px;
+    }
 }
 
 .footer__video {
     display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1190px;
+    justify-content: space-between;
+    & iframe {
+        padding-top: 65px;
+    }
 }
