@@ -36,6 +36,10 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+    body {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
     hr {
         display: none;
     }
@@ -60,4 +64,98 @@ body {
     .header__cart-button {
         margin-right: 30px;
     }
+    .header__product-nav-ul {
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
+
+@media screen and (max-width: 968px) {
+    .header__logo-mobile {
+        display: flex;
+        & img {
+            width: 23px;
+            margin-right: 10px;
+        }
+    }
+    .header__logo-textmobile {
+        display: flex
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__logo-text {
+        display: none;
+    }
+    .header__cart-button p {
+        display: block;
+    }
+    .header__cart-button button {
+        width: 160px;
+    }
+    .header__social-logo:nth-child(7) {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main__article-right {
+        margin-left: 5px;
+    }
+    .header__info-right p {
+        display: none;
+    }
+    .header__logo-textmobile {
+        display: flex !important
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .header__search-form input {
+        width: 250px;
+    }
+    .header__cart-button p {
+        display: none;
+    }
+    .header__cart-button button {
+        width: 45px;
+    }
+    .main__article {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .main__article-left {
+        margin: 0 auto;
+    }
+    .main__article-right {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 700px;
+    }
+    .footer__video {
+        display: block;
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .header__login-button p {
+        display: none;
+    }
+    .header__login-button button {
+        width: 50px;
+    }
+    .footer__video-mobile {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .footer__video {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 548px) {}

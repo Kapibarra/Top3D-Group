@@ -8,9 +8,21 @@
     height: 236px;
 }
 
+.header__buttons-wrapper {
+    display: flex;
+}
+
 .header__main-wrapper {
     height: 204px;
     box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16)
+}
+
+.header__logo-mobile {
+    display: none;
+}
+
+.header__logo-textmobile {
+    display: none
 }
 
 .header__info {
