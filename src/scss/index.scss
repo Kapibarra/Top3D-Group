@@ -39,7 +39,25 @@ body {
     hr {
         display: none;
     }
+    .header__nav {
+        display: none;
+    }
+    .header__info-left {
+        display: none;
+    }
+    .header__info-right {
+        margin: 0 auto;
+    }
+    .header__social-logo:nth-child(5) {
+        margin-right: 0px;
+    }
     .header__search-form input {
         width: 300px;
+    }
+    .header__logo {
+        margin-left: 30px;
+    }
+    .header__cart-button {
+        margin-right: 30px;
     }
 }
