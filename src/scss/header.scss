@@ -97,7 +97,6 @@
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    // flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -152,6 +151,9 @@
     color: $redele-color;
     box-sizing: border-box;
     border-radius: 4px;
+    & :hover {
+        cursor: pointer;
+    }
 }
 
 .header__search-form input {
